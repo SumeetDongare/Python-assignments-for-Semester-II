@@ -1,0 +1,8 @@
+t = (10, 20, 30, 40, 20)
+print("First element:", t[0])
+print("Last element:", t[-1])
+print("Slice:", t[1:4])
+print("Length:", len(t))
+t2 = (50, 60)
+print("Concatenated:", t + t2)
+print("Repeated:", t2 * 2)
